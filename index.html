@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mikey Bottomley | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="background-blur blur-1"></div>
+  <div class="background-blur blur-2"></div>
+
+  <nav class="navbar">
+    <div class="logo">Michael Bottomley</div>
+
+    <button class="menu-toggle" id="menuToggle">☰</button>
+
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <header class="hero">
+    <p class="hero-top">Student</p>
+    <h1 class="glitch" data-text="Place Holder">
+      Place Holder
+    </h1>
+    <p class="hero-text">
+      Place Holder
+    </p>
+
+    <div class="hero-buttons">
+      <a href="#projects" class="btn">View Projects</a>
+      <a href="#contact" class="btn btn-outline">Contact Me</a>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="about" class="panel reveal">
+      <h2>About Me</h2>
+      <p>
+        I am a student.
+      </p>
+    </section>
+
+    <section id="skills" class="reveal">
+      <h2>Skills</h2>
+      <div class="card-grid">
+        <div class="card">Place Holder</div>
+        <div class="card">Place Holder</div>
+        <div class="card">Place Holder</div>
+        <div class="card">Place holder</div>
+        <div class="card">Place Holder</div>
+        <div class="card">Place Holder</div>
+      </div>
+    </section>
+
+    <section id="projects" class="reveal">
+      <h2>Projects</h2>
+
+      <div class="project-card">
+        <div class="project-image project-image-1"></div>
+        <div class="project-info">
+          <h3>Place Holder</h3>
+          <p>
+            Hopefully a good example website created by me!
+          </p>
+          <p><strong>Tools Used:</strong> HTML, CSS, JavaScript</p>
+          <a href="#" class="text-link">View Project</a>
+        </div>
+      </div>
+
+      <div class="project-card reverse">
+        <div class="project-image project-image-2"></div>
+        <div class="project-info">
+          <h3>Place Holder</h3>
+          <p>
+            Idk yet
+          </p>
+          <p><strong>Tools:</strong> Place Holder</p>
+          <a href="#" class="text-link">View Project</a>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-image project-image-3"></div>
+        <div class="project-info">
+          <h3>Place Holder</h3>
+          <p>
+            Idk yet
+          </p>
+          <p><strong>Tools:</strong> Place Holder</p>
+          <a href="#" class="text-link">View Project</a>
+        </div>
+      </div>
+    </section>
+
+
+<!-- this handles the contact form, ill be honest idk how this works but it uses a backend website called formspree-->
+<section id="contact" class="panel reveal">
+  <h2>Contact</h2>
+  <p>Send me a message below.</p>
+
+  <form action="https://formspree.io/f/xlgorrlp" method="POST" class="contact-form">
+    <input type="text" name="name" placeholder="Your Name" required>
+    
+    <input type="email" name="email" placeholder="Your Email" required>
+    
+    <input type="text" name="subject" placeholder="Subject" required>
+    
+    <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
+    
+    <button type="submit" class="btn">Send Message</button>
+  </form>
+</section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
